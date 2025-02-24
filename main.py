@@ -146,11 +146,6 @@ class RegularGrammar:
         ]
         return '\n'.join(components)
 
-def generate_test_string(alphabet: Set[str], min_len: int = 3, max_len: int = 10) -> str:
-    """Generates a random test string from the given alphabet."""
-    length = random.randint(min_len, max_len)
-    return ''.join(random.choice(list(alphabet)) for _ in range(length))
-
 def display_menu():
     """Display the main menu options."""
     print("\n📋 Menu Options:")
