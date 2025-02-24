@@ -81,21 +81,6 @@ Regular grammars and DFAs are equivalent in computational power:
 
 ## Implementation Description
 
-### Project Architecture
-
-The implementation follows a modular design with clear separation of concerns:
-
-```
-project/
-├── classes/
-│   ├── regular_grammar.py
-│   └── dfa.py
-├── utils/
-│   ├── ui_helpers.py
-│   └── string_generators.py
-└── main.py
-```
-
 ### Core Components
 
 #### 1. Data Structures
@@ -446,11 +431,3 @@ The implementation successfully demonstrates:
    - Interactive learning opportunities
 
 The project provides a robust foundation for understanding and working with formal languages while maintaining software engineering best practices.
-
-## References
-
-1. Hopcroft, J. E., Motwani, R., & Ullman, J. D. (2006). Introduction to Automata Theory, Languages, and Computation (3rd Edition)
-2. Sipser, M. (2012). Introduction to the Theory of Computation
-3. Course materials by Cretu Dumitru and Vasile Drumea with Irina Cojuhari
-4. Python Documentation - Type Hints
-5. Python Documentation - Data Classes
